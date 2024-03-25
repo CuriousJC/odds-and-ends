@@ -1,9 +1,10 @@
 set nocompatible
-filetype polugin indent on
+filetype plugin indent on
 set title
 
 """core environment
-syntax onset ruler
+syntax on
+set ruler
 set number
 set spell spelllang=en_us
 
