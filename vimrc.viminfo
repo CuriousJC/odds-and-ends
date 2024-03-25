@@ -1,0 +1,20 @@
+set nocompatible
+filetype polugin indent on
+set title
+
+"""core environment
+syntax onset ruler
+set number
+set spell spelllang=en_us
+
+"""indentation / tabbing
+"set autoindent
+"set softtabstop=2
+"set tabstop=2
+"set shiftwidth=2
+"set expandtab
+
+set errorbells
+set visualbell
+set backup
+set swapfile
