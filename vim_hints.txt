@@ -1,0 +1,72 @@
+/ ==> search from top to bottom (then 'n'/'*' to move forward and 'N','#' to move backward
+? ==> search from bottom
+
+vim <file> <file>
+
+#swap tabs
+:n  :N
+
+:e <file> #open new file
+:wq #save and quit
+:q! #quit no save
+
+h j k l ==> left, down, up, right
+^ $ ==> front, back
+CTRL-f CTRL-b ==> page down, page up
+H M L ==> top, middle, bottom
+gg ==> BoF
+G ==> EoF
+25% 50% 95% ==> percentage of file
+
+zz zb zt ==> center current line, bottom current line, top current line
+0 or ^ ==> beginning of line
+$ ==> end of line
+w W ==> go through words/chunks
+b B ==> backwork words/chunks
+# w/b ==> number of word chunks
+
+i ==> insert mode
+I ==> insert mode beginning of line
+a ==> append insert mode
+A => append end of line
+o ==> new line below
+O ==> new line above
+s ==> replace active character
+r<char> ==> replace character, don't go into insert
+J ==> join multiple lines
+~ ==> change case 
+g(u|U) ==> change case
+
+u ==> undo
+. ==> redo
+:earlier <time> ==> go back in time
+:later <time> ==> got forward in time
+
+x ==> delete a character
+dw ==> delete a word
+dd ==> delete a line
+c<w ==> remove a word and drop us into it to replace
+
+v ==> visual mode
+V ==> visual mode (line)
+Ctrl-v ==> visual mode (vertical block)
+
+
+
+:h(elp)
+
+
+#Modes
+Normal, Visual, Select, Insert, Command Line, Ex, Terminal
+
+:sp <f> to do a split
+:vsp <f> to do a vertical split
+ctrl-w +/- for changing things
+ctrl-w </> for changing widths
+
+:mks ==> make session (or :mks! to overwrite)
+vim -S <session file>
+
+vim ~/.viminfo file for history/commands
+
+
