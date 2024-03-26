@@ -1,3 +1,5 @@
+https://vim.rtorr.com/
+
 / ==> search from top to bottom (then 'n'/'*' to move forward and 'N','#' to move backward
 ? ==> search from bottom
 
