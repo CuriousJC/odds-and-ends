@@ -21,6 +21,10 @@ what you want.
 
 ## Skills
 
+| Skill            | What it does                                                                   |
+| ---------------- | ------------------------------------------------------------------------------ |
+| `asset-reviewer` | Builds browsable HTML catalogs of downloaded game-asset packs, with per-pack notes |
+
 Skills live at `.claude/skills/<name>/SKILL.md`. Because they sit in `.claude/`,
 Claude Code picks them up automatically while you're working *in this repo* — which
 makes this a convenient place to write and test one.
